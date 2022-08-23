@@ -10,6 +10,7 @@ Mysql Tuning
 ## Optimize the MySQL query cache
 
 MariaDB [(none)]> SHOW VARIABLES LIKE 'have_query_cache';
+
 +------------------+-------+
 | Variable_name    | Value |
 +------------------+-------+
