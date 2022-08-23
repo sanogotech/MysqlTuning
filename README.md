@@ -47,6 +47,15 @@ MariaDB [(none)]> show status like 'Qcache_total_blocks';
 | Qcache_total_blocks | 33    |
 +---------------------+-------+
 
+## Threading, thread pools, waiting, and timeouts
+
+MariaDB [(none)]> show variables like 'thread_pool_size';
+
++------------------+-------+
+| Variable_name    | Value |
++------------------+-------+
+| thread_pool_size | 4     |
++------------------+-------+
 
 ## Waiting and timeouts
 
