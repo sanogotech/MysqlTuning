@@ -27,6 +27,9 @@ MariaDB [(none)]> SHOW VARIABLES LIKE 'query_cache_type';
 +------------------+-------+
 
 
+MariaDB [(none)]> SET GLOBAL query_cache_type = ON;
+
+
 
 ## Waiting and timeouts
 
