@@ -67,3 +67,31 @@ MariaDB [(none)]> show variables like 'wait%';
 +---------------+-------+
 | wait_timeout  | 28800 |
 +---------------+-------+
+
+## Tuning temporary tables
+
+MariaDB [(none)]> show variables like 'MariaDB [(none)]> show variables like 'tmp_table_size';  
+
++----------------+----------+
+
+| Variable_name  | Value    |
+
++----------------+----------+
+
+| tmp_table_size | 16777216 |
+
++----------------+----------+
+';
++---------------------+----------+
+| Variable_name       | Value    |
++---------------------+----------+
+| max_heap_table_size | 16777216 |
++---------------------+----------+
+
+MariaDB [(none)]> show variables like 'tmp_table_size';
+
++----------------+----------+
+| Variable_name  | Value    |
++----------------+----------+
+| tmp_table_size | 16777216 |
++----------------+----------+
