@@ -12,6 +12,7 @@ Mysql Tuning
 
 The resulting value is in seconds.
 MariaDB [(none)]> show variables like 'wait%';
+
 +---------------+-------+
 | Variable_name | Value |
 +---------------+-------+
