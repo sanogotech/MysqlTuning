@@ -39,6 +39,14 @@ MariaDB [(none)]> SHOW VARIABLES LIKE 'query_cache_size';
 +------------------+----------+
 
 
+MariaDB [(none)]> show status like 'Qcache_total_blocks';
+
++---------------------+-------+
+| Variable_name       | Value |
++---------------------+-------+
+| Qcache_total_blocks | 33    |
++---------------------+-------+
+
 
 ## Waiting and timeouts
 
