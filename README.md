@@ -30,6 +30,15 @@ MariaDB [(none)]> SHOW VARIABLES LIKE 'query_cache_type';
 MariaDB [(none)]> SET GLOBAL query_cache_type = ON;
 
 
+MariaDB [(none)]> SHOW VARIABLES LIKE 'query_cache_size';
+
++------------------+----------+
+| Variable_name    | Value    |
++------------------+----------+
+| query_cache_size | 16777216 |
++------------------+----------+
+
+
 
 ## Waiting and timeouts
 
