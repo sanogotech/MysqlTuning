@@ -18,6 +18,16 @@ MariaDB [(none)]> SHOW VARIABLES LIKE 'have_query_cache';
 +------------------+-------+
 
 
+MariaDB [(none)]> SHOW VARIABLES LIKE 'query_cache_type';
+
++------------------+-------+
+| Variable_name    | Value |
++------------------+-------+
+| query_cache_type | ON    |
++------------------+-------+
+
+
+
 ## Waiting and timeouts
 
 The resulting value is in seconds.
